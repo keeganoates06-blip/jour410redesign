@@ -94,14 +94,43 @@ body{
 ============================================ */
 .hero {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), url("images/IMG_7486.JPG");
+    background-image: url('Images/IMG_7486.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px 60px;
+    max-width: 800px;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    font-size: 2.8em;
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.deck {
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 12px;
+}
+
+.byline {
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 /* ============================================
    SECTION SHARED
@@ -673,7 +702,7 @@ footer a:hover{text-decoration:underline;}
 
 <!-- ===== FOOTER ===== -->
 <footer id="footer">
-  <img src="Images/transparentlogo.png" class="f-logo" alt="Gray Whale Migration Crisis">
+  <img src="images/transparentlogo.png" class="f-logo" alt="Gray Whale Migration Crisis">
   <p class="f-title">The Decline of a Giant: Gray Whales in a Changing Ocean</p>
   <p class="f-meta">
     By Keegan Oates &middot; May 26, 2026<br>
